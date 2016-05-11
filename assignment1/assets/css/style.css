@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background: #efeee7;
+	font: Helvetica, Arial, 'Helvetica Neue', sans-serif;
+	color: #777; 
+}
+
+li {
+	display: inline;
+	color: #777;
+}
+ 
+ li a{
+	color: #777;
+	text-decoration: none;
+}
+
+input{
+	padding: 5px;
+}
+
+h2{
+	color: #4aaaa5;
+}
+p{
+	line-height: 1.2em;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+}
+
+#wrapper{
+	width: 960px;
+	height: 57px;
+	margin: 0 auto;
+	background: #fff;
+	margin-bottom: 15px;
+	border-bottom: 1px #777 solid;
+}
+
+.bigone{
+	margin: 0px 193px;
+	min-width: 1039px;
+}
+
+.myNameHeader{
+	float:left;
+	background: #4aaaa5;
+	width: 200px;
+	color: #fff;
+	font-size: 16px;
+	font-family: "Georgia, Times, Times New Roman", serif;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 1px #777 solid;
+}
+
+#navigationBar {
+	float: right;
+	position: relative;
+	margin: 20px;  
+}
+
+#body{
+	margin: center;
+	width: 650px;
+}
+
+#bioImage {
+	float: left;
+	margin: 10px;
+	}
+
+.img200 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+}
+
+.biography{
+	clear: both;
+	position: relative;
+}
+.myImage{
+	float: left;
+	margin-left: 10px;
+
+}
+.mainbio{
+	border: solid 1px;
+	width: 610px;
+}
+.contact{
+	border: solid 1px;
+	width: 610px;
+}
+.container{
+	clear:both;
+	float: left;
+	border: solid 1px;
+	padding: 20px;
+	width: 650px;
+	background: #fff;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.portfolio{
+	width: 610px;
+	float: left;
+	padding: 40px;
+	justify-content: center;
+
+}
+.connect{
+	list-style-type: none;
+	border: solid 1px;
+	background: #fff;
+	width: 270px;
+	float:right;
+	margin-right: 40px;
+	padding: 15px;
+}
+.floatLeft{
+	float: left;
+	
+}
+.floatLeftmargin{
+	margin-left: 10px;
+}
+.footer{
+	clear: both;
+	background: gray;
+	color: #666666;
+	padding: 20px;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 10px;
+}
+
+.logo{
+	width: 60px;
+	height: 60px;
+}
+
+.imageBox{
+	clear: both;
+	position: absolute;
+	display: inline-block;
+  background: #4aaaa5;
+  float: left;
+  padding: 15px;
+  color: #eee;
+  font-size: 25px;
+  width: 240px;
+  margin-top: 100px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.hangman{
+	margin-left: 10px;
+	width: 240px;
+	height: 220px;
+
+}
+
+.rpg{
+	margin-left: 10px;
+	width: 240px;
+	height: 220px;
+}
+
+.trivia {
+	margin-left: 10px;
+	width: 240px;
+	height: 220px;
+}
+
+.rocks {
+	margin-left: 10px;
+	width: 240px;
+	height: 220px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px) {
+	.wrapper{
+			position: static;
+	}
+
+}
+
+		
